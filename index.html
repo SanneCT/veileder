@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veileder</title>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        padding: 1%;
+      }
+    </style>
+    <h1>Veileder oppgave brukerstøtte</h1>
+    <br>
+
+    <h2>Vil du ha nettsiden på engelsk? Følg guiden under</h2>
+
+    <br />
+    <p>1. Høyreklikk på siden og velg oversett til engelsk</p>
+    <img src="img/språk1.png" />
+
+    <br /><br />
+    <h1>Hvordan sette opp ny bruker i Linux med nøkkelpålogging</h1>
+
+    <br />
+    <p>1. Begynn med å lage brukeren med adduser kommandoen</p>
+    <img src="img/steg1.png" />
+
+    <br />
+    <br />
+    <p>
+      2. Lag passordet til brukeren og følg stegene som kommer opp. Fyll inn
+      informasjonen den ber om eller la den være tom.
+    </p>
+    <img src="img/steg2.png" />
+
+    <br />
+    <br />
+    <p>3. Logg inn på den nye brukeren med su kommandoen</p>
+    <img src="img/steg3.png" />
+
+    <br />
+    <br />
+    <p>4. Generer public ssh key</p>
+    <img src="img/steg5.png" />
+
+    <br />
+    <br />
+    <p>
+      5. La nøkkelen lagres i default mappen og lag et passphrase om du vil (du
+      kan la den være tom)
+    </p>
+    <img src="img/steg6.png" />
+
+    <br />
+    <br />
+    <p>
+      6. Gå inn i ssh mappen og rediger authorized_keys. inni authoized_keys
+      kopierer du inn public keyen til brukeren som skal kunne logge seg på.
+      Trykk ctrl + O for å lagre edringene og ctrl + X for å gå ut av filen.
+    </p>
+    <img src="img/steg7.png" />
+
+    <br />
+    <br />
+    <p>7. Skriv logout for å logge ut av brukeren</p>
+    <img src="img/steg75.png" />
+
+    <br />
+    <br />
+    <p>
+      8. Bruk usermod for å redigere rettighetene til brukeren. Du kan sjekke om
+      det funker ved å skrive groups og brukernavnet for å se hvilke grupper
+      brukeren er en del av. På bilde ser vi at geir brukeren har blitt lagt til
+      i sudo gruppen
+    </p>
+    <img src="img/steg8.png" />
+
+    <br /><br /><br />
+    <h1>Hvordan hoste en node applikasjon</h1>
+
+    <br />
+    <p>
+      1. Lag mappen som du vil ha prosjektet i. Gå inn i mappen du akkuratt
+      lagde og åpne et kode program.
+    </p>
+    <img src="img/1.png" />
+
+    <br />
+    <br />
+    <p>2. Lag en liten kode som logger noe til terminalen.</p>
+    <img src="img/2.png" />
+
+    <br />
+    <br />
+    <p>3. Åpne en terminal.</p>
+    <img src="img/3.png" />
+
+    <br />
+    <br />
+    <p>
+      4. Skriv inn node kommandoen og navnet på javascript filen for å kjøre
+      scriptet. Her ser vi at det funker ved at vi får skrevet ut beskjeden vår.
+    </p>
+    <img src="img/4.png" />
+
+    <!-- <br><br>
+    <h2>Hvordan like en blogg</h2>
+
+    <br>
+    <p>1. Trykk på like knappen over bloggen</p>
+    <img src="img/like.png"> -->
+  </body>
+</html>
